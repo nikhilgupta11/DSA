@@ -8,7 +8,7 @@ print(arr1)
 def deleteElement(array, value):
     if value in array:
         array.remove(value)
-        return arr1
+        return array
     return "value is not available"
 
 

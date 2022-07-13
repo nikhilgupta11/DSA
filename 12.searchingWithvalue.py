@@ -8,6 +8,7 @@ print(arr1)
 def elementsearch(array, value):
     for i in array:
         if i == value:
+            # return array[int(i)]  it will give the value at 4th index
             return array.index(i)
     return "Value is not available"
 
