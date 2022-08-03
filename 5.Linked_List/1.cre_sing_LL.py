@@ -10,15 +10,18 @@ class Node:
         self.next = None
 
 
+# creted a object of class
 SingalyLL = singleLL()
-node1 = Node(1)
-print(node1)
-node2 = Node(2)
-print(node2)
 
+# assign a value to nodes
+node1 = Node(1)
+node2 = Node(2)
+
+# connect head with node1
 SingalyLL.head = node1
-print(SingalyLL.head)
+
+# connect node1(head.next) with node2
 SingalyLL.head.next = node2
-print(SingalyLL.head.next)
+
+# connect tail with node2
 SingalyLL.tail = node2
-print(SingalyLL.tail)
